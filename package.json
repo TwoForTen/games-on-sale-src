@@ -21,7 +21,8 @@
     "sass": "^1.26.3"
   },
   "scripts": {
-    "dev": "parcel ./public/index.html -p 3000"
+    "dev": "parcel ./public/index.html -p 3000",
+    "build": "parcel build ./public/index.html"
   },
   "browserslist": [
     ">0.2%",
