@@ -1,0 +1,31 @@
+.ant-menu-inline > .ant-menu-item-group > .ant-menu-item-group-title {
+  padding: 8px 24px;
+  font-size: 12px;
+  &::after {
+    position: relative;
+    top: 8px;
+    display: block;
+    height: 1px;
+    background: #f0f0f0;
+    content: '';
+  }
+}
+
+.ant-drawer-body {
+  padding: 40px 0px;
+  overflow-x: hidden;
+}
+
+.ant-menu-item {
+  padding: 0px 32px !important;
+}
+
+.menu-button {
+  cursor: default;
+}
+
+.ant-menu-inline,
+.ant-menu-vertical,
+.ant-menu-vertical-left {
+  border: none;
+}

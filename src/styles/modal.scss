@@ -1,0 +1,27 @@
+@mixin phone {
+  @media (max-width: 550px) {
+    @content;
+  }
+}
+
+.ant-modal-header {
+  border-bottom: none;
+  text-transform: capitalize;
+  width: Calc(100% - 40px);
+}
+
+.ant-modal-body {
+  padding-top: 10px !important;
+  div {
+    @include phone {
+      justify-content: space-between !important;
+    }
+  }
+}
+
+// .ant-modal-footer {
+//   text-align: initial;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }

@@ -1,0 +1,9 @@
+export const HANDLE_MODAL = 'OPEN_MODAL';
+
+export const SET_QUERY = 'SET_QUERY';
+export const CLEAN_QUERY = 'CLEAN_QUERY';
+
+export const SEARCH_OPTIONS = 'SEARCH_OPTIONS';
+export const CLEAR_SEARCH_OPTIONS = 'CLEAR_SEARCH_OPTIONS';
+
+export const HANDLE_DRAWER = 'HANDLE_DRAWER';
